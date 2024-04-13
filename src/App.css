@@ -1,0 +1,9 @@
+.bgFirstSection {
+  background-image: url("./assets/images/firstSection.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkBorder {
+  border-bottom: 1px solid #fd9f23 !important;
+}
