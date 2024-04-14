@@ -1,5 +1,6 @@
 import FirstSection from "./FirstSection";
 import { motion } from "framer-motion";
+import SecSection from "./SecSection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       className="w-full h-full"
     >
       <FirstSection />
+      <SecSection />
     </motion.div>
   );
 };
