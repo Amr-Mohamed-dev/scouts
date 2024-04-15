@@ -1,8 +1,8 @@
 import { popularResidence } from "../../db";
 
-const SecSection = () => {
+const BlogSection = () => {
   return (
-    <div className="w-full  text-black flex justify-center items-center">
+    <div className="w-full text-black flex justify-center items-center">
       <section className="bg-white pb-10 pt-20 lg:pb-20 lg:pt-[120px] ">
         <div className="">
           <div className=" flex flex-wrap">
@@ -75,4 +75,4 @@ const SecSection = () => {
   );
 };
 
-export default SecSection;
+export default BlogSection;

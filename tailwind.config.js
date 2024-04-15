@@ -6,6 +6,7 @@ export default {
       colors: {
         primary: "#fd9f23",
         secondary: "#faad48",
+        projectCard: "#292c35",
       },
     },
   },

@@ -1,3 +1,4 @@
+import PagesHeader from "../../components/PagesHeader";
 import Dots from "./Dots";
 import { motion } from "framer-motion";
 
@@ -9,6 +10,11 @@ const AboutUs = () => {
       exit={{ opacity: 0, x: 100 }}
       transition={{ duration: 0.5 }}
     >
+      <PagesHeader
+        header={"About Us"}
+        title={"We Add We Are Scouts"}
+        bg={"bgAboutUs"}
+      />
       <section className="overflow-hidden pt-20 pb-12 px-2 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -37,7 +43,7 @@ const AboutUs = () => {
                       alt=""
                       className="w-full rounded-2xl"
                     />
-                    <Dots />
+                    <Dots direction={"-right-7"} />
                   </div>
                 </div>
               </div>

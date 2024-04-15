@@ -1,39 +1,32 @@
 export const navLinks = [
   {
     name: "Home",
-    description: "Get a better understanding of your traffic",
     href: "/",
   },
   {
     name: "About Us",
-    description: "Speak directly to your customers",
     href: "/about-us",
   },
   {
+    name: "Team",
+    href: "/team",
+  },
+  {
     name: "Developers",
-    description: "Your customers’ data will be safe and secure",
     href: "/developers",
   },
   {
     name: "carrers",
-    description: "Connect with third-party tools",
     href: "/carrers",
   },
   {
     name: "News",
-    description: "Build strategic funnels that will convert",
     href: "/news",
   },
   {
     name: "Blogs",
-    description: "Build strategic funnels that will convert",
     href: "/blogs",
   },
-  // {
-  //   name: "Contact Us",
-  //   description: "Build strategic funnels that will convert",
-  //   href: "/contact-us",
-  // },
 ];
 
 export const popularResidence = [
@@ -57,5 +50,26 @@ export const popularResidence = [
     CardDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     image: "https://i.ibb.co/7jdcnwn/image-03.jpg",
+  },
+];
+
+export const projectsData = [
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/Project1.jpeg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project2.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
   },
 ];

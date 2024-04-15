@@ -1,15 +1,15 @@
 import Typewriter from "typewriter-effect";
 
-const FirstSection = () => {
+const HeroSection = () => {
   return (
     <div className=" w-full h-[95vh] bgFirstSection flex justify-start items-center text-white">
       <div className="lg:w-[70%] h-[40%] ml-10 lg:ml-52 lg:pt-10">
         <h1 className="text-[55px] lg:text-[90px] font-bold lg:flex">
           Find Your
-          <span className="text-primary ml-4 text-[52px] lg:text-[90px]">
+          <span className="text-primary ml-4 text-[52px] lg:text-[90px] tracking-wider">
             <Typewriter
               options={{
-                strings: "Dream Home...",
+                strings: "Dream Home",
                 autoStart: true,
                 loop: true,
                 delay: 400,
@@ -25,4 +25,4 @@ const FirstSection = () => {
   );
 };
 
-export default FirstSection;
+export default HeroSection;

@@ -11,6 +11,7 @@ import News from "./pages/News/News.jsx";
 import Blogs from "./pages/Blogs/Blogs.jsx";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
+import Team from "./pages/Team/Team.jsx";
 
 function App() {
   return (
@@ -42,6 +43,16 @@ function App() {
             <>
               <NavBar />
               <AboutUs />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/team"
+          element={
+            <>
+              <NavBar />
+              <Team />
               <Footer />
             </>
           }

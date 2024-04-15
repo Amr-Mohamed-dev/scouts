@@ -38,8 +38,6 @@ export default function Example() {
             <NavLink
               key={item.name}
               to={item.href}
-              // className="text-sm font-semibold leading-6 text-gray-400 hover:text-white
-              //       transition duration-300 ease-in-out"
               className={({ isActive }) => {
                 return (
                   "text-sm font-semibold leading-6 " +
