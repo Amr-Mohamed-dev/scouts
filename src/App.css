@@ -7,6 +7,7 @@
   background-image: url("./assets/images/aboutUs.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
 }
 
 .linkBorder {

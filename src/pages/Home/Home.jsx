@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import BlogSection from "./BlogSection";
 import HeroSection from "./HeroSection";
-import ProjectsSection from "./ProjectsSection";
+import OurDevelopers from "./OurDevelopers";
+import OurProjects from "./OurProjects";
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
       className="w-full h-full"
     >
       <HeroSection />
-      <ProjectsSection />
+      <OurDevelopers />
+      <OurProjects />
       <BlogSection />
     </motion.div>
   );

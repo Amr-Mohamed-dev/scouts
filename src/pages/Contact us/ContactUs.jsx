@@ -1,8 +1,20 @@
+import PagesHeader from "../../components/PagesHeader";
 import Dots from "../About us/Dots";
+import { motion } from "framer-motion";
 
 const ContactUs = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 0.5 }}
+    >
+      <PagesHeader
+        header={"Contact Us"}
+        title={"GET IN TOUCH WITH US"}
+        bg={"bgAboutUs"}
+      />
       <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
         <div className="mx-20">
           <div className="flex flex-wrap lg:justify-between">
@@ -183,7 +195,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   );
 };
 
