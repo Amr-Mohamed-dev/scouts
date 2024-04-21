@@ -1,4 +1,4 @@
-import { projectsData } from "../../db";
+import { developersData } from "../../db";
 
 const OurDevelopers = () => {
   return (
@@ -21,7 +21,7 @@ const OurDevelopers = () => {
 
       <div className="mx-10 lg:mx-32">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {projectsData.map((project) => {
+          {developersData.slice(0, 3).map((project) => {
             return (
               <div
                 href="#"

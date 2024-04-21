@@ -53,7 +53,7 @@ export const popularResidence = [
   },
 ];
 
-export const projectsData = [
+export const developersData = [
   {
     CardTitle: "Meet AutoManage, the best AI management tools",
     CardDescription:
@@ -65,6 +65,48 @@ export const projectsData = [
     CardDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     image: "/src/assets/images/project2.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
+  },
+  {
+    CardTitle: "Meet AutoManage, the best AI management tools",
+    CardDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    image: "/src/assets/images/project3.jpg",
   },
   {
     CardTitle: "Meet AutoManage, the best AI management tools",
