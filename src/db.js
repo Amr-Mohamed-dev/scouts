@@ -115,3 +115,22 @@ export const developersData = [
     image: "/src/assets/images/project3.jpg",
   },
 ];
+
+export const projectsData = [
+  {
+    CardTitle: "Residential",
+    image: "/src/assets/images/Project1.jpeg",
+  },
+  {
+    CardTitle: "Administrative",
+    image: "/src/assets/images/Project1.jpeg",
+  },
+  {
+    CardTitle: "Commercial",
+    image: "/src/assets/images/Project1.jpeg",
+  },
+  {
+    CardTitle: "Coastal",
+    image: "/src/assets/images/Project1.jpeg",
+  },
+];

@@ -3,6 +3,7 @@ import BlogSection from "./BlogSection";
 import HeroSection from "./HeroSection";
 import OurDevelopers from "./OurDevelopers";
 import OurProjects from "./OurProjects";
+import NewsLetter from "../../components/NewsLetter";
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
       <HeroSection />
       <OurDevelopers />
       <OurProjects />
-      <BlogSection />
+      {/* <BlogSection /> */}
+      <NewsLetter />
     </motion.div>
   );
 };

@@ -58,50 +58,50 @@ const Projects = () => {
                 </li>
                 <li className="mb-1">
                   <button
-                    onClick={() => handleProject("branding")}
+                    onClick={() => handleProject("residential")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "branding"
+                      showCard === "Residential"
                         ? "activeClasses bg-primary text-white"
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Branding
+                    Residential
                   </button>
                 </li>
                 <li className="mb-1">
                   <button
-                    onClick={() => handleProject("design")}
+                    onClick={() => handleProject("administrative")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "design"
                         ? "activeClasses bg-primary text-white"
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Design
+                    Administrative
                   </button>
                 </li>
                 <li className="mb-1">
                   <button
-                    onClick={() => handleProject("marketing")}
+                    onClick={() => handleProject("commercial")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "marketing"
                         ? "activeClasses bg-primary text-white"
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Marketing
+                    Commercial
                   </button>
                 </li>
                 <li className="mb-1">
                   <button
-                    onClick={() => handleProject("development")}
+                    onClick={() => handleProject("coastal")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "development"
                         ? "activeClasses bg-primary text-white"
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Development
+                    Coastal
                   </button>
                 </li>
               </ul>
@@ -110,7 +110,7 @@ const Projects = () => {
           <div className="flex flex-wrap -mx-4">
             <ProjectsCard
               ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
-              category="Branding"
+              category="Residential"
               title="Creative Agency"
               button="View Details"
               buttonHref="#"
@@ -118,7 +118,7 @@ const Projects = () => {
             />
             <ProjectsCard
               ImageHref="https://i.ibb.co/PT7ghRs/image-06.jpg"
-              category="marketing"
+              category="administrative"
               title="Creative Agency"
               button="View Details"
               buttonHref="#"
@@ -126,7 +126,7 @@ const Projects = () => {
             />
             <ProjectsCard
               ImageHref="https://i.ibb.co/vkt8C1P/image-02.jpg"
-              category="marketing"
+              category="administrative"
               title="Creative Agency"
               button="View Details"
               buttonHref="#"
@@ -134,7 +134,7 @@ const Projects = () => {
             />
             <ProjectsCard
               ImageHref="https://i.ibb.co/3FKqS1G/image-03.jpg"
-              category="Development"
+              category="commercial"
               title="Creative Agency"
               button="View Details"
               buttonHref="#"
@@ -142,7 +142,7 @@ const Projects = () => {
             />
             <ProjectsCard
               ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
-              category="Design"
+              category="coastal"
               title="Creative Agency"
               button="View Details"
               buttonHref="#"
@@ -150,7 +150,7 @@ const Projects = () => {
             />
             <ProjectsCard
               ImageHref="https://i.ibb.co/mCPjBsH/image-05.jpg"
-              category="Marketing"
+              category="administrative"
               title="Creative Agency"
               button="View Details"
               buttonHref="#"

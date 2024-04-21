@@ -1,8 +1,8 @@
+import { NavLink } from "react-router-dom";
 import { developersData } from "../../db";
-
 const OurDevelopers = () => {
   return (
-    <section className="bg-gray-100 pb-10 pt-20 lg:pb-20 lg:pt-[80px]">
+    <section className="bg-gray-100 pb-10 pt-20 lg:pb-20 lg:pt-[80px] ">
       <div className=" flex flex-wrap">
         <div className="w-full px-4">
           <div className="mx-auto mb-[60px] text-center lg:mb-20">
@@ -47,6 +47,11 @@ const OurDevelopers = () => {
           })}
         </div>
       </div>
+      <NavLink to={"/developers"} className="mx-auto flex justify-center mt-10">
+        <button className="font-normal uppercase px-8 py-2 rounded-sm border-2 tracking-wider border-gray-400 text-gray-900 cursor-pointer text-sm duration-300 transition hover:bg-secondary hover:border-secondary mt-4">
+          View All
+        </button>
+      </NavLink>
     </section>
   );
 };

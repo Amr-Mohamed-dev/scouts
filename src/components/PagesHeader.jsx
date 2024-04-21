@@ -6,7 +6,7 @@ const PagesHeader = ({ header, title, bg }) => {
     >
       <div className="absolute w-full h-full bg-black/50"></div>
       <div className="text-center absolute mb-3">
-        <div className=" uppercase text-[40px] tracking-[13px] font-semibold text-gray-300 ">
+        <div className=" uppercase text-[40px] tracking-[13px] font-semibold text-gray-300 pb-5">
           {header}
         </div>
         <span className="uppercase text-[20px] tracking-[13px] text-gray-400">
