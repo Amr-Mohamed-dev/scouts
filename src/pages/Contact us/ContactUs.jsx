@@ -15,8 +15,8 @@ const ContactUs = () => {
         title={"GET IN TOUCH WITH US"}
         bg={"bgAboutUs"}
       />
-      <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
-        <div className="mx-20">
+      <section className="relative z-10  overflow-hidden  py-20 lg:py-[120px]">
+        <div className="mx-auto lg:mx-20">
           <div className="flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 lg:mb-0">
@@ -122,8 +122,8 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
+            <div className="lg:px-4 lg:w-1/2 xl:w-5/12 w-full px-5">
+              <div className="relative  rounded-lg p-8 shadow-lg dark:bg-dark-2 sm:p-12">
                 <form>
                   <div className="mb-6">
                     <input

@@ -58,19 +58,19 @@ export const developersData = [
     CardTitle: "Meet AutoManage, the best AI management tools",
     CardDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "/src/assets/images/Project1.jpeg",
+    image: "/src/assets/images/new3.jpg",
   },
   {
     CardTitle: "Meet AutoManage, the best AI management tools",
     CardDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "/src/assets/images/project2.jpg",
+    image: "/src/assets/images/new1.jpg",
   },
   {
     CardTitle: "Meet AutoManage, the best AI management tools",
     CardDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "/src/assets/images/project3.jpg",
+    image: "/src/assets/images/new2.jpg",
   },
   {
     CardTitle: "Meet AutoManage, the best AI management tools",
@@ -119,18 +119,18 @@ export const developersData = [
 export const projectsData = [
   {
     CardTitle: "Residential",
-    image: "/src/assets/images/Project1.jpeg",
+    image: "/src/assets/images/new1.jpg",
   },
   {
     CardTitle: "Administrative",
-    image: "/src/assets/images/Project1.jpeg",
+    image: "/src/assets/images/new2.jpg",
   },
   {
     CardTitle: "Commercial",
-    image: "/src/assets/images/Project1.jpeg",
+    image: "/src/assets/images/new1.jpg",
   },
   {
     CardTitle: "Coastal",
-    image: "/src/assets/images/Project1.jpeg",
+    image: "/src/assets/images/new2.jpg",
   },
 ];
