@@ -18,7 +18,7 @@ const HeroSection = () => {
           </span>
         </h1>
         <h1 className="text-[30px] lg:text-5xl font-bold pt-6">
-          @Scouts Company
+          @Scouts Real estate
         </h1>
       </div>
     </div>
