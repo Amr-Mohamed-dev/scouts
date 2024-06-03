@@ -26,20 +26,22 @@ const OurProjects = () => {
             key={project.image}
             className={`rounded-lg pb-8 shadow-sm text-center bg-projectCard $}`}
           >
-            <div className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg h-[70%]">
               <img
-                className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto"
+                className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-full"
                 src={project.image}
               />
             </div>
-            <h3 className="pt-5 text-[24px] font-semibold text-gray-300 block">
-              {project.CardTitle}
-            </h3>
-            <NavLink to={"/projects"}>
-              <button className="font-normal px-8 py-2 rounded-sm border-2 tracking-wider border-gray-400 text-gray-100 cursor-pointer text-sm duration-300 transition hover:bg-secondary hover:border-secondary mt-4">
-                Explore
-              </button>
-            </NavLink>
+            <div className="h-[20%]">
+              <h3 className="pt-5 text-[24px] font-semibold text-gray-300 block">
+                {project.CardTitle}
+              </h3>
+              <NavLink to={"/projects"}>
+                <button className="font-normal px-8 py-2 rounded-sm border-2 tracking-wider border-gray-400 text-gray-100 cursor-pointer text-sm duration-300 transition hover:bg-secondary hover:border-secondary mt-4">
+                  Explore
+                </button>
+              </NavLink>
+            </div>
           </div>
         ))}
       </div>
